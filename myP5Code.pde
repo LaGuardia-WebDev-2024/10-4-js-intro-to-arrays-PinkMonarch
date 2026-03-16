@@ -9,5 +9,16 @@ setup = function() {
   }
 
 
+var newFriends = ["ava", "angel", "elene","moree"];
+
+fill(200, 15, 20);
+text( newFriends[0], 10, 30);
+text( newFriends[1], 100, 30);
+text( newFriends[2], 220, 30);
+text( newFriends[3], 129, 100);
+
+text("i have" + newFriends.length + "friends!!!", 150,150);
+
+
 };
 
